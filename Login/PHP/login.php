@@ -13,13 +13,14 @@ session_start();
 </head>
 <body>
     <div class="g">
-        <div class="g-edit2"></div>
+        <div class="g-edit2">
+        </div>
+
+        <!-- Formulário login -->
         <div class="g-edit">
                 <b>Sant Imports</b>
                 <h1>Entrar</h1>
-
                 <div class="form__group field">
-
                     <form class="form-edit" action="ProcessaLogin.php" class="form-edit" method="post">
                         <label class="label" for="">Loguin</label>
                         <input class="input" type="text" name="usuario" value placeholder="Usuario"><br><br>
@@ -30,7 +31,8 @@ session_start();
                         Cadastre sua conta!
                         </a>
                     </form>
-
+                </div>
+        </div>
     </div>
 
 </body>

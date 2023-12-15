@@ -4,11 +4,11 @@ session_start();
 include("ConexaoCadastro.php");
 
 $nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome'];
+$sobrenome = $_POST['email'];
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
-$sql = "INSERT INTO informacoesUsuario (nome, sobrenome, usuario, senha) VALUES ('$nome', '$sobrenome',  '$usuario', '$senha')";
+$sql = "INSERT INTO informacoesUsuario (nome, email, usuario, senha) VALUES ('$nome', '$sobrenome',  '$usuario', '$senha')";
 
 if(mysqli_query($conexao, $sql)){
 

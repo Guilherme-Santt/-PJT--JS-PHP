@@ -1,18 +1,19 @@
 
 .g-edit{
     width: 100%;
-    height: 100%;
+    height: 949px;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 .cadastro-edit{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
-    height: 40.7em;
-}
+    width: 30%;
+    height: 70%;
+    border-radius: 50px;}
 .cadastro-edit a{
     text-align: none;
     text-decoration: none;  
@@ -22,10 +23,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 0.5em;
+    gap: 1%;
     text-align: center;
     border: none;
-    font-size: 1.4em;
+    font-size: 30px;
 }
 .cadastro-edit h1{
     font-size: 3em;
@@ -60,5 +61,8 @@ outline: none;
     background-size: cover;
     background-position: center;
     font-size: 10px;
-
+}
+.labeltext{
+    font-size: 20px;
+    padding-top: 50px;
 }
