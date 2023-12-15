@@ -22,9 +22,9 @@ session_start();
                 <div class="formgroupfield">
                     <form class="form-edit" action="ProcessaLogin.php" class="form-edit" method="post">
                         <label class="label" for="">Usuário</label>
-                        <input class="input" type="text" name="usuario" value ><br><br>
+                        <input class="input" required type="text" name="usuario" value ><br><br>
                         <label class="label" for="">Senha</label>
-                        <input class="input" type="text" name="senha" value ><br>
+                        <input class="input" required type="text" name="senha" value ><br>
                         <br>
                         <button class="b-label" type="subit"  name="acessar">Entrar</button>
                         <br>

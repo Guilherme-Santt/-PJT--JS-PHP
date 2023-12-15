@@ -1,3 +1,4 @@
+
 <?php
 
 session_start();
@@ -14,7 +15,8 @@ if(isset($_POST['acessar']) && !empty($_POST['usuario']) && !empty($_POST['senha
 if(mysqli_num_rows($result) < 1){
     unset($_SESSION['usuario']);
     unset($_SESSION['senha']);
-    header('location: http://127.0.0.1/[PJT]-JS-PHP/login/PHP/index.php');
+    header('location:http://localhost/[PJT]-JS-PHP/Login/PHP/login.php');
+    echo "Usuário ou senha invalidos!";
 }       
 else{
     $_SESSION['usuario'] = $usuario;
