@@ -1,0 +1,64 @@
+
+.g-edit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.cadastro-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 40.7em;
+}
+.cadastro-edit a{
+    text-align: none;
+    text-decoration: none;  
+    color: black;
+}
+.formedit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    text-align: center;
+    border: none;
+    font-size: 1.4em;
+}
+.cadastro-edit h1{
+    font-size: 3em;
+}
+.formedit input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1pxb black ;
+    width: 14em;
+    height: 2em;
+}
+.formedit input:focus{
+outline: none;
+}
+.cadastro-edit button{
+    border: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 30px;
+    position: relative;
+    left: 22%;
+    transition: 0.3s;
+}
+.cadastro-edit button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img-edit{
+    width: 50%;
+    height: 40.7;
+    background-image: url(adrien-vajas-6rPugl6sVmY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 10px;
+
+}
