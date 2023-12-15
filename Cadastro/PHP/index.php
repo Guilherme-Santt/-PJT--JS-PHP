@@ -9,6 +9,8 @@ session_start();
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/index3.css">
     <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
 </head>
 
 <body>
