@@ -77,7 +77,6 @@ $result = $conexao3->query($sql);
     </header>
 
 
-    <!-- Lealt mais vendidos -->
 
 
 
