@@ -2,7 +2,7 @@
 $servidor="localhost";
 $usuario="root";
 $senha="";
-$dbname ="PJDLoja";
+$dbname ="projetoworklab";
 
 $conexao3 = mysqli_connect($servidor, $usuario, $senha, $dbname);
 if(!$conexao3){

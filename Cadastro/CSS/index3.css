@@ -68,3 +68,6 @@ outline: none;
     font-size: 20px;
     padding-top: 15px;
 }
+.error{
+    color:red
+}

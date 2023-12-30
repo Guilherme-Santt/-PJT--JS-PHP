@@ -3,7 +3,7 @@
 $servidor = "localhost"; 
 $usuario = "root";
 $senha = "";
-$dbname = "PJDLoja";
+$dbname = "projetoworklab";
 
 
 $conexao = mysqli_connect($servidor , $usuario , $senha, $dbname);
